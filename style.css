@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.wrapper{
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.wrapper>ul{
+  list-style: none;
+}
+.wrapper>ul li{
+
+}
+.subject_wrapper,
+.card-wrapper{
+  width: 400px;
+}
+
+.subject{
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  color: #262626;
+}
+
+
+i{
+  color: #0D0D0D;
+}
+
+.card{
+  width: inherit;
+}
+
+.item-selected{
+
+  color: #fff;
+}
+.monthAndYear{
+  font-size: 20px;
+}
+
+.add_subject{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 48px;
+  height: 60px;
+  padding: 15px 15px;
+  font-size: 20px;
+  margin: 10px;
+
+  color: #000;
+}
+
+.add_subject input{
+  border: none;
+  outline: none;
+  background: none;
+  width: 0;
+  transition: 0.4s;
+}
+
+.add_subject:hover > input{
+  width: 300px;
+}
+.add_subject:hover > .fas{
+  color: #fff;
+}
+.add_subject:hover{
+  border-radius: 15px;
+  border: 1px solid #ddd;
+  color: #262626;
+  background-color: #262626;
+}
+
+.add_subject input::placeholder{
+  color: #fff;
+}
